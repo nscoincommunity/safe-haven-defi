@@ -1,0 +1,10 @@
+.expandable-section-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+        fill: #1FC7D4;
+    }
+}

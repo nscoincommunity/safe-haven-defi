@@ -1,0 +1,19 @@
+.styled-card {
+    align-self: baseline;
+    padding: 0;
+    > div {
+        background-color: #eefbff;
+    }
+
+    .stakecard-inner-container {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 24px;
+    }
+
+    .expanding-wrapper {
+        padding: 24px;
+        border-top: 2px solid #bbb;
+        overflow: hidden;
+    }
+}

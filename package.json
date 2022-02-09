@@ -1,0 +1,89 @@
+{
+  "name": "safehavendefi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@binance-chain/bsc-connector": "^1.0.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@ethersproject/providers": "^5.0.12",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/lab": "^5.0.0-alpha.63",
+    "@mui/material": "^5.2.6",
+    "@mui/styles": "^5.2.3",
+    "@pancakeswap/sdk": "^2.4.0",
+    "@pancakeswap/uikit": "^0.62.0",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@uniswap/token-lists": "^1.0.0-beta.27",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "@walletconnect/web3-provider": "^1.6.5",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.8",
+    "ajv": "^8.9.0",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.2",
+    "cids": "^1.1.9",
+    "classnames": "^2.3.1",
+    "cors": "^2.8.5",
+    "ethers": "^5.4.0",
+    "from-exponential": "^1.1.1",
+    "js-cookie": "^3.0.1",
+    "jwt-encode": "^1.0.1",
+    "lodash": "^4.17.21",
+    "multicodec": "^3.2.1",
+    "multihashes": "^4.0.3",
+    "notistack": "^2.0.3",
+    "qs": "^6.10.3",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countup": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.2.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-slick": "^0.28.1",
+    "react-transition-group": "^4.4.2",
+    "react-window": "^1.8.6",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^2.1.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "sass": "^1.45.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

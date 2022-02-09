@@ -1,0 +1,15 @@
+.apy-label-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    &:hover {
+        opacity: 0.5;
+    }
+
+    .apy-icon-button {
+        width: 24px;
+        height: 24px;
+        margin-left: 0!important;
+        margin-bottom: 2px!important;
+    }
+}
